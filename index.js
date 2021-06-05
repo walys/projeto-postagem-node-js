@@ -69,8 +69,9 @@ app.get('/del/:id', function(req, res){
 /* ********************************************************************* */
 
 
-
+/*
 app.listen(3000, function (){
     console.log('Bem vindo a port: http://localhost:3000');
 });
-
+*/
+app.listen(3000);
