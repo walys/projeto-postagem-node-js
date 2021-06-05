@@ -2,8 +2,8 @@
 Projeto inicial - Node JS que mostra um crud simples
 
 
-
 /******************************************************************************/
+
 Primeiro comando  para instalação do express
 
 Express.js é um framework para Node.js que fornece recursos 
@@ -12,10 +12,11 @@ Foi lançado como software livre e de código aberto sob a Licença MIT.
 É um dos mais populares frameworks para servidores em Node.js.
 
 comando : 
-
 npm install express  --save
 
+
 /******************************************************************************/
+
 Segundo comando  para instalação do nodemon
 
 O nodemon é um utilitário de interface de linha de comando (CLI) desenvolvido pelo 
