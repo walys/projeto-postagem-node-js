@@ -1,0 +1,34 @@
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="card">
+                <h5 class="text-center mb-4">Listagem de postagem</h5>
+                <div class="row justify-content">
+                    <div class="form-group col-md-6">
+                            <a href="/cad" class="btn btn-primary">CADASTRAR</a> 
+                    </div>
+                </div>
+                <table class="table table-bordered">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Conteúdo</th>
+                    <th scope="col">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#each posts}}
+                <tr>
+                    <td>{{dataValues.id}}</td>                    
+                    <td>{{dataValues.titulo}}</td>
+                    <td>{{dataValues.conteudo}}</td>
+                    <td><a href="/del/{{dataValues.id}}" type="button" class="btn btn-danger"><i class="fa fa-trash-o"></i></a></td>
+                </tr>
+                {{/each}}
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
