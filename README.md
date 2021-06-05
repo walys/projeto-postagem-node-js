@@ -29,6 +29,7 @@ comando :
 npm install nodemon -g
 
 /******************************************************************************/
+
 Terceiro comando para instalação do sequelize
 
  Sequelize, segundo o site oficial, é um ORM para Node.js baseado em Promises, 
@@ -38,33 +39,47 @@ Terceiro comando para instalação do sequelize
 
 comando :
  npm i --save sequelize
+ 
 /******************************************************************************/
 
+
 /******************************************************************************/
+
 
 Quarto comando para instalar as dependencias do SGBD que irei usar (MYSQL)
 
+
 comando :
+
 npm i --save mysql2
 
+
 /******************************************************************************/
 
 
+
 /******************************************************************************/
+
  Quinto comando para instalação do Handlebars.js
+ 
 
  Handlebars.js é uma extensão da linguagem de modelos Mustache criada por Chris 
  Wanstrath. Handlebars.js e Mustache são linguagens de modelagem sem lógica que mantêm a 
  visualização e o código separados como todos sabemos que deveriam ser.
 
 comando :
+
 npm install express-handlebars  --save
 
+
 /******************************************************************************/
 
 
+
 /******************************************************************************/
+
 Sexto comando para instalação do body-parser
+
 
 Como req.bodya forma de é baseada na entrada controlada pelo usuário, 
 todas as propriedades e valores neste objeto não são confiáveis ​​e devem 
@@ -73,9 +88,12 @@ falhar de várias maneiras, por exemplo, a foopropriedade pode não estar
 lá ou pode não ser uma string e toStringpode não ser uma função e, em vez 
 disso, uma string ou outra entrada do usuário.
 
+
 comando: 
 
+
 npm install --save body-parser
+
 
 
 /******************************************************************************/
