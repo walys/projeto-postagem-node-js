@@ -1,5 +1,6 @@
 # projetopostagemnodejd
-Projeto inicial - Node JS que mostra um crud simples
+Projeto inicial - Node JS que mostra um crud simples de inserção e delete usando express.js, 
+nodemon, sequelize.js, mysql2 e o body-parser com uma comunicação muito simples com o mysql.
 
 
 /******************************************************************************/
