@@ -3,6 +3,8 @@ Projeto inicial - Node JS que mostra um crud simples de inserção e delete usan
 nodemon, sequelize.js, mysql2 e o body-parser com uma comunicação muito simples com o mysql.
 
 
+Caso deseje visualizar o projeto em execução segue o link: https://drive.google.com/file/d/1FOZqRa-tZJORBmyUFQIQ3Zdj-NY9olfj/view?usp=sharing
+
 /******************************************************************************/
 
 Primeiro comando  para instalação do express
